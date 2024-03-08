@@ -28,5 +28,4 @@ function main() {
     var vat = vatCalculator(inputNumber);
     var corpTax = corpTaxCalculator(inputNumber, vat);
     total(vat, corpTax);
-    
 }
